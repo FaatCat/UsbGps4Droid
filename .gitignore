@@ -1,7 +1,7 @@
 local.properties
 *.iml
 app/build/
-/.idea/
+.idea/
 *.lock
 *.bin
 gradle/
