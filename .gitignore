@@ -1,0 +1,6 @@
+local.properties
+*.iml
+app/build/
+/.idea/
+*.lock
+*.bin
