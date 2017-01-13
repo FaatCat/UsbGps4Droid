@@ -98,7 +98,6 @@ public class BlueetoothGpsManager {
 		@Override
 		public void onReceive(Context context, Intent intent) {
 			String action = intent.getAction();
-
 			if (UsbManager.ACTION_USB_DEVICE_DETACHED.equals(action)){
 				final UsbDevice device = (UsbDevice)intent.getParcelableExtra(UsbManager.EXTRA_DEVICE);
 				if (device.getVendorId() == GPSVendorId & device.getProductId() == GPSProductId){
